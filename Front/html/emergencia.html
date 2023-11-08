@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/emergencia.css">
+    <title>Registro de Emergência - Clínica Veterinária VitalVet</title>
+</head>
+<body>
+    <header>
+        <h1>Clínica Veterinária VitalVet</h1>   
+        <p>Registro de Emergência</p>
+    </header>
+
+    <div class="container">
+        <h2>Registro de Emergência</h2>
+        <p>Preencha o formulário abaixo para registrar informações de emergência para o seu animal de estimação:</p>
+        
+        <form>
+            <label for="nome">Nome do Dono:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="telefone">Telefone de Contato:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+
+            <label for="pet_nome">Nome do Animal de Estimação:</label>
+            <input type="text" id="pet_nome" name="pet_nome" required><br><br>
+
+            <label for="especie">Espécie do Animal:</label>
+            <input type="text" id="especie" name="especie" required><br><br>
+
+            <label for="descricao">Descrição da Emergência:</label><br>
+            <textarea id="descricao" name="descricao" rows="4" required></textarea><br><br>
+
+            <input type="submit" value="Registrar Emergência">
+            <a href="Main.html">Voltar</a>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2023 Clínica Veterinária VitalVet</p>
+    </footer>
+</body>
+</html>
